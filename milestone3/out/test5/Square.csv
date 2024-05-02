@@ -1,0 +1,5 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(Square:str:int),161,None
+area,NAME,Function,(Square),165,int
+name,NAME,Variable,str,162
+side_length,NAME,Variable,int,163

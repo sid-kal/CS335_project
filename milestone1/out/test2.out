@@ -1,0 +1,1084 @@
+digraph G {
+ordering=out
+node1 [label= "file_input"]
+node62 [label= "classdef"]
+node2 [label= "KEYWORD(class)", shape = rectangle, color = green]
+node3 [label= "NAME(Node)", shape = rectangle, color = red]
+node4 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node61 [label= "funcdef"]
+node5 [label= "KEYWORD(def)", shape = rectangle, color = green]
+node6 [label= "NAME(__init__)", shape = rectangle, color = red]
+node11 [label= "parameters"]
+node7 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node10 [label= "formal_param"]
+node8 [label= "NAME(self)", shape = rectangle, color = red]
+node9 [label= "DELIMITER())", shape = rectangle, color = blue]
+node15 [label= "return_type_hint"]
+node12 [label= "DELIMITER(->)", shape = rectangle, color = blue]
+node13 [label= "KEYWORD(None)", shape = rectangle, color = green]
+node14 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node49 [label= "stmts"]
+node37 [label= "annassign"]
+node20 [label= "atom_expr"]
+node16 [label= "NAME(self)", shape = rectangle, color = red]
+node19 [label= "trailer"]
+node17 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node18 [label= "NAME(next)", shape = rectangle, color = red]
+node21 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node27 [label= "atom_expr"]
+node22 [label= "TYPE NAME(list)", shape = rectangle, color = cyan]
+node26 [label= "trailer"]
+node23 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node24 [label= "STRING_LITERAL(\'Node\')", shape = rectangle, color = orange]
+node25 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node36 [label= "param_val"]
+node28 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node34 [label= "OPERATOR(*)", shape = rectangle, color = purple]
+node33 [label= "atom"]
+node29 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node32 [label= "testlist_comp"]
+node30 [label= "KEYWORD(None)", shape = rectangle, color = green]
+node31 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node35 [label= "NUMBER(26)", shape = rectangle, color = pink]
+node48 [label= "annassign"]
+node42 [label= "atom_expr"]
+node38 [label= "NAME(self)", shape = rectangle, color = red]
+node41 [label= "trailer"]
+node39 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node40 [label= "NAME(cnt)", shape = rectangle, color = red]
+node43 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node44 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node47 [label= "param_val"]
+node45 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node46 [label= "NUMBER(0)", shape = rectangle, color = pink]
+node60 [label= "annassign"]
+node54 [label= "atom_expr"]
+node50 [label= "NAME(self)", shape = rectangle, color = red]
+node53 [label= "trailer"]
+node51 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node52 [label= "NAME(isEnding)", shape = rectangle, color = red]
+node55 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node56 [label= "TYPE NAME(bool)", shape = rectangle, color = cyan]
+node59 [label= "param_val"]
+node57 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node58 [label= "KEYWORD(False)", shape = rectangle, color = green]
+node198 [label= "funcdef"]
+node63 [label= "KEYWORD(def)", shape = rectangle, color = green]
+node64 [label= "NAME(insert)", shape = rectangle, color = red]
+node89 [label= "parameters"]
+node65 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node88 [label= "typedargslist"]
+node71 [label= "formal_param"]
+node66 [label= "NAME(curr)", shape = rectangle, color = red]
+node70 [label= "param_type_hint"]
+node67 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node68 [label= "NAME(Node)", shape = rectangle, color = red]
+node69 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node77 [label= "formal_param"]
+node72 [label= "NAME(s)", shape = rectangle, color = red]
+node76 [label= "param_type_hint"]
+node73 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node74 [label= "TYPE NAME(str)", shape = rectangle, color = cyan]
+node75 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node84 [label= "formal_param"]
+node79 [label= "NAME(index)", shape = rectangle, color = red]
+node83 [label= "param_type_hint"]
+node80 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node81 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node87 [label= "param_val"]
+node82 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node85 [label= "NUMBER(0)", shape = rectangle, color = pink]
+node86 [label= "DELIMITER())", shape = rectangle, color = blue]
+node93 [label= "return_type_hint"]
+node90 [label= "DELIMITER(->)", shape = rectangle, color = blue]
+node91 [label= "KEYWORD(None)", shape = rectangle, color = green]
+node92 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node123 [label= "stmts"]
+node99 [label= "OPERATOR(+=)", shape = rectangle, color = purple]
+node98 [label= "atom_expr"]
+node94 [label= "NAME(curr)", shape = rectangle, color = red]
+node97 [label= "trailer"]
+node95 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node96 [label= "NAME(cnt)", shape = rectangle, color = red]
+node100 [label= "NUMBER(1)", shape = rectangle, color = pink]
+node122 [label= "if_stmt"]
+node101 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node103 [label= "OPERATOR(==)", shape = rectangle, color = purple]
+node102 [label= "NAME(index)", shape = rectangle, color = red]
+node109 [label= "atom_expr"]
+node104 [label= "NAME(len)", shape = rectangle, color = red]
+node108 [label= "trailer"]
+node105 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node106 [label= "NAME(s)", shape = rectangle, color = red]
+node107 [label= "DELIMITER())", shape = rectangle, color = blue]
+node110 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node120 [label= "stmts"]
+node116 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node115 [label= "atom_expr"]
+node111 [label= "NAME(curr)", shape = rectangle, color = red]
+node114 [label= "trailer"]
+node112 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node113 [label= "NAME(isEnding)", shape = rectangle, color = red]
+node117 [label= "KEYWORD(True)", shape = rectangle, color = green]
+node119 [label= "return_stmt"]
+node118 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node146 [label= "annassign"]
+node121 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node124 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node125 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node145 [label= "param_val"]
+node126 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node138 [label= "OPERATOR(-)", shape = rectangle, color = purple]
+node137 [label= "atom_expr"]
+node127 [label= "NAME(ord)", shape = rectangle, color = red]
+node136 [label= "trailer"]
+node128 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node134 [label= "atom_expr"]
+node129 [label= "NAME(s)", shape = rectangle, color = red]
+node133 [label= "trailer"]
+node130 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node131 [label= "NAME(index)", shape = rectangle, color = red]
+node132 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node135 [label= "DELIMITER())", shape = rectangle, color = blue]
+node144 [label= "atom_expr"]
+node139 [label= "NAME(ord)", shape = rectangle, color = red]
+node143 [label= "trailer"]
+node140 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node141 [label= "STRING_LITERAL(\'a\')", shape = rectangle, color = orange]
+node142 [label= "DELIMITER())", shape = rectangle, color = blue]
+node176 [label= "if_stmt"]
+node147 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node157 [label= "KEYWORD(is)", shape = rectangle, color = green]
+node152 [label= "atom_expr"]
+node148 [label= "NAME(curr)", shape = rectangle, color = red]
+node151 [label= "trailer"]
+node149 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node150 [label= "NAME(next)", shape = rectangle, color = red]
+node156 [label= "trailer"]
+node153 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node154 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node155 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node158 [label= "KEYWORD(None)", shape = rectangle, color = green]
+node159 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node169 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node164 [label= "atom_expr"]
+node160 [label= "NAME(curr)", shape = rectangle, color = red]
+node163 [label= "trailer"]
+node161 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node162 [label= "NAME(next)", shape = rectangle, color = red]
+node168 [label= "trailer"]
+node165 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node166 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node167 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node174 [label= "atom_expr"]
+node170 [label= "NAME(Node)", shape = rectangle, color = red]
+node173 [label= "trailer"]
+node171 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node172 [label= "DELIMITER())", shape = rectangle, color = blue]
+node197 [label= "atom_expr"]
+node175 [label= "NAME(insert)", shape = rectangle, color = red]
+node196 [label= "trailer"]
+node177 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node195 [label= "arglist"]
+node182 [label= "atom_expr"]
+node178 [label= "NAME(curr)", shape = rectangle, color = red]
+node181 [label= "trailer"]
+node179 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node180 [label= "NAME(next)", shape = rectangle, color = red]
+node186 [label= "trailer"]
+node183 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node184 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node185 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node187 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node188 [label= "NAME(s)", shape = rectangle, color = red]
+node189 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node192 [label= "OPERATOR(+)", shape = rectangle, color = purple]
+node191 [label= "NAME(index)", shape = rectangle, color = red]
+node193 [label= "NUMBER(1)", shape = rectangle, color = pink]
+node194 [label= "DELIMITER())", shape = rectangle, color = blue]
+node306 [label= "funcdef"]
+node199 [label= "KEYWORD(def)", shape = rectangle, color = green]
+node200 [label= "NAME(search)", shape = rectangle, color = red]
+node225 [label= "parameters"]
+node201 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node224 [label= "typedargslist"]
+node207 [label= "formal_param"]
+node202 [label= "NAME(curr)", shape = rectangle, color = red]
+node206 [label= "param_type_hint"]
+node203 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node204 [label= "NAME(Node)", shape = rectangle, color = red]
+node205 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node213 [label= "formal_param"]
+node208 [label= "NAME(s)", shape = rectangle, color = red]
+node212 [label= "param_type_hint"]
+node209 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node210 [label= "TYPE NAME(str)", shape = rectangle, color = cyan]
+node211 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node220 [label= "formal_param"]
+node215 [label= "NAME(index)", shape = rectangle, color = red]
+node219 [label= "param_type_hint"]
+node216 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node217 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node223 [label= "param_val"]
+node218 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node221 [label= "NUMBER(0)", shape = rectangle, color = pink]
+node222 [label= "DELIMITER())", shape = rectangle, color = blue]
+node229 [label= "return_type_hint"]
+node226 [label= "DELIMITER(->)", shape = rectangle, color = blue]
+node227 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node228 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node258 [label= "stmts"]
+node239 [label= "if_stmt"]
+node230 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node232 [label= "KEYWORD(is)", shape = rectangle, color = green]
+node231 [label= "NAME(curr)", shape = rectangle, color = red]
+node233 [label= "KEYWORD(None)", shape = rectangle, color = green]
+node234 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node237 [label= "return_stmt"]
+node235 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node236 [label= "NUMBER(0)", shape = rectangle, color = pink]
+node257 [label= "if_stmt"]
+node238 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node241 [label= "OPERATOR(==)", shape = rectangle, color = purple]
+node240 [label= "NAME(index)", shape = rectangle, color = red]
+node247 [label= "atom_expr"]
+node242 [label= "NAME(len)", shape = rectangle, color = red]
+node246 [label= "trailer"]
+node243 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node244 [label= "NAME(s)", shape = rectangle, color = red]
+node245 [label= "DELIMITER())", shape = rectangle, color = blue]
+node248 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node255 [label= "return_stmt"]
+node249 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node254 [label= "atom_expr"]
+node250 [label= "NAME(curr)", shape = rectangle, color = red]
+node253 [label= "trailer"]
+node251 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node252 [label= "NAME(cnt)", shape = rectangle, color = red]
+node281 [label= "annassign"]
+node256 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node259 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node260 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node280 [label= "param_val"]
+node261 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node273 [label= "OPERATOR(-)", shape = rectangle, color = purple]
+node272 [label= "atom_expr"]
+node262 [label= "NAME(ord)", shape = rectangle, color = red]
+node271 [label= "trailer"]
+node263 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node269 [label= "atom_expr"]
+node264 [label= "NAME(s)", shape = rectangle, color = red]
+node268 [label= "trailer"]
+node265 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node266 [label= "NAME(index)", shape = rectangle, color = red]
+node267 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node270 [label= "DELIMITER())", shape = rectangle, color = blue]
+node279 [label= "atom_expr"]
+node274 [label= "NAME(ord)", shape = rectangle, color = red]
+node278 [label= "trailer"]
+node275 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node276 [label= "STRING_LITERAL(\'a\')", shape = rectangle, color = orange]
+node277 [label= "DELIMITER())", shape = rectangle, color = blue]
+node305 [label= "return_stmt"]
+node282 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node304 [label= "atom_expr"]
+node283 [label= "NAME(search)", shape = rectangle, color = red]
+node303 [label= "trailer"]
+node284 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node302 [label= "arglist"]
+node289 [label= "atom_expr"]
+node285 [label= "NAME(curr)", shape = rectangle, color = red]
+node288 [label= "trailer"]
+node286 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node287 [label= "NAME(next)", shape = rectangle, color = red]
+node293 [label= "trailer"]
+node290 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node291 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node292 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node294 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node295 [label= "NAME(s)", shape = rectangle, color = red]
+node296 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node299 [label= "OPERATOR(+)", shape = rectangle, color = purple]
+node298 [label= "NAME(index)", shape = rectangle, color = red]
+node300 [label= "NUMBER(1)", shape = rectangle, color = pink]
+node301 [label= "DELIMITER())", shape = rectangle, color = blue]
+node440 [label= "funcdef"]
+node307 [label= "KEYWORD(def)", shape = rectangle, color = green]
+node308 [label= "NAME(remove)", shape = rectangle, color = red]
+node333 [label= "parameters"]
+node309 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node332 [label= "typedargslist"]
+node315 [label= "formal_param"]
+node310 [label= "NAME(curr)", shape = rectangle, color = red]
+node314 [label= "param_type_hint"]
+node311 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node312 [label= "NAME(Node)", shape = rectangle, color = red]
+node313 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node321 [label= "formal_param"]
+node316 [label= "NAME(s)", shape = rectangle, color = red]
+node320 [label= "param_type_hint"]
+node317 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node318 [label= "TYPE NAME(str)", shape = rectangle, color = cyan]
+node319 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node328 [label= "formal_param"]
+node323 [label= "NAME(index)", shape = rectangle, color = red]
+node327 [label= "param_type_hint"]
+node324 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node325 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node331 [label= "param_val"]
+node326 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node329 [label= "NUMBER(0)", shape = rectangle, color = pink]
+node330 [label= "DELIMITER())", shape = rectangle, color = blue]
+node337 [label= "return_type_hint"]
+node334 [label= "DELIMITER(->)", shape = rectangle, color = blue]
+node335 [label= "NAME(Node)", shape = rectangle, color = red]
+node336 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node359 [label= "stmts"]
+node343 [label= "OPERATOR(-=)", shape = rectangle, color = purple]
+node342 [label= "atom_expr"]
+node338 [label= "NAME(curr)", shape = rectangle, color = red]
+node341 [label= "trailer"]
+node339 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node340 [label= "NAME(cnt)", shape = rectangle, color = red]
+node344 [label= "NUMBER(1)", shape = rectangle, color = pink]
+node358 [label= "if_stmt"]
+node345 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node351 [label= "OPERATOR(==)", shape = rectangle, color = purple]
+node350 [label= "atom_expr"]
+node346 [label= "NAME(curr)", shape = rectangle, color = red]
+node349 [label= "trailer"]
+node347 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node348 [label= "NAME(cnt)", shape = rectangle, color = red]
+node352 [label= "NUMBER(0)", shape = rectangle, color = pink]
+node353 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node356 [label= "return_stmt"]
+node354 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node355 [label= "KEYWORD(None)", shape = rectangle, color = green]
+node381 [label= "if_stmt"]
+node357 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node361 [label= "OPERATOR(==)", shape = rectangle, color = purple]
+node360 [label= "NAME(index)", shape = rectangle, color = red]
+node367 [label= "atom_expr"]
+node362 [label= "NAME(len)", shape = rectangle, color = red]
+node366 [label= "trailer"]
+node363 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node364 [label= "NAME(s)", shape = rectangle, color = red]
+node365 [label= "DELIMITER())", shape = rectangle, color = blue]
+node368 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node379 [label= "stmts"]
+node374 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node373 [label= "atom_expr"]
+node369 [label= "NAME(curr)", shape = rectangle, color = red]
+node372 [label= "trailer"]
+node370 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node371 [label= "NAME(isEnding)", shape = rectangle, color = red]
+node375 [label= "KEYWORD(False)", shape = rectangle, color = green]
+node378 [label= "return_stmt"]
+node376 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node377 [label= "NAME(curr)", shape = rectangle, color = red]
+node404 [label= "annassign"]
+node380 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node382 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node383 [label= "TYPE NAME(int)", shape = rectangle, color = cyan]
+node403 [label= "param_val"]
+node384 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node396 [label= "OPERATOR(-)", shape = rectangle, color = purple]
+node395 [label= "atom_expr"]
+node385 [label= "NAME(ord)", shape = rectangle, color = red]
+node394 [label= "trailer"]
+node386 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node392 [label= "atom_expr"]
+node387 [label= "NAME(s)", shape = rectangle, color = red]
+node391 [label= "trailer"]
+node388 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node389 [label= "NAME(index)", shape = rectangle, color = red]
+node390 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node393 [label= "DELIMITER())", shape = rectangle, color = blue]
+node402 [label= "atom_expr"]
+node397 [label= "NAME(ord)", shape = rectangle, color = red]
+node401 [label= "trailer"]
+node398 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node399 [label= "STRING_LITERAL(\'a\')", shape = rectangle, color = orange]
+node400 [label= "DELIMITER())", shape = rectangle, color = blue]
+node414 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node409 [label= "atom_expr"]
+node405 [label= "NAME(curr)", shape = rectangle, color = red]
+node408 [label= "trailer"]
+node406 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node407 [label= "NAME(next)", shape = rectangle, color = red]
+node413 [label= "trailer"]
+node410 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node411 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node412 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node436 [label= "atom_expr"]
+node415 [label= "NAME(remove)", shape = rectangle, color = red]
+node435 [label= "trailer"]
+node416 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node434 [label= "arglist"]
+node421 [label= "atom_expr"]
+node417 [label= "NAME(curr)", shape = rectangle, color = red]
+node420 [label= "trailer"]
+node418 [label= "OPERATOR(.)", shape = rectangle, color = purple]
+node419 [label= "NAME(next)", shape = rectangle, color = red]
+node425 [label= "trailer"]
+node422 [label= "DELIMITER([)", shape = rectangle, color = blue]
+node423 [label= "NAME(nextIndex)", shape = rectangle, color = red]
+node424 [label= "DELIMITER(])", shape = rectangle, color = blue]
+node426 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node427 [label= "NAME(s)", shape = rectangle, color = red]
+node428 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node431 [label= "OPERATOR(+)", shape = rectangle, color = purple]
+node430 [label= "NAME(index)", shape = rectangle, color = red]
+node432 [label= "NUMBER(1)", shape = rectangle, color = pink]
+node433 [label= "DELIMITER())", shape = rectangle, color = blue]
+node439 [label= "return_stmt"]
+node437 [label= "KEYWORD(return)", shape = rectangle, color = green]
+node438 [label= "NAME(curr)", shape = rectangle, color = red]
+node555 [label= "if_stmt"]
+node441 [label= "KEYWORD(if)", shape = rectangle, color = green]
+node443 [label= "OPERATOR(==)", shape = rectangle, color = purple]
+node442 [label= "NAME(__name__)", shape = rectangle, color = red]
+node444 [label= "STRING_LITERAL(\"__main__\")", shape = rectangle, color = orange]
+node445 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node467 [label= "stmts"]
+node456 [label= "annassign"]
+node446 [label= "NAME(root)", shape = rectangle, color = red]
+node447 [label= "DELIMITER(:)", shape = rectangle, color = blue]
+node448 [label= "NAME(Node)", shape = rectangle, color = red]
+node455 [label= "param_val"]
+node449 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node454 [label= "atom_expr"]
+node450 [label= "NAME(Node)", shape = rectangle, color = red]
+node453 [label= "trailer"]
+node451 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node452 [label= "DELIMITER())", shape = rectangle, color = blue]
+node466 [label= "atom_expr"]
+node457 [label= "NAME(insert)", shape = rectangle, color = red]
+node465 [label= "trailer"]
+node458 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node464 [label= "arglist"]
+node459 [label= "NAME(root)", shape = rectangle, color = red]
+node460 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node461 [label= "STRING_LITERAL(\"abc\")", shape = rectangle, color = orange]
+node462 [label= "DELIMITER())", shape = rectangle, color = blue]
+node477 [label= "atom_expr"]
+node468 [label= "NAME(insert)", shape = rectangle, color = red]
+node476 [label= "trailer"]
+node469 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node475 [label= "arglist"]
+node470 [label= "NAME(root)", shape = rectangle, color = red]
+node471 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node472 [label= "STRING_LITERAL(\"aba\")", shape = rectangle, color = orange]
+node473 [label= "DELIMITER())", shape = rectangle, color = blue]
+node487 [label= "atom_expr"]
+node478 [label= "NAME(insert)", shape = rectangle, color = red]
+node486 [label= "trailer"]
+node479 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node485 [label= "arglist"]
+node480 [label= "NAME(root)", shape = rectangle, color = red]
+node481 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node482 [label= "STRING_LITERAL(\"ab\")", shape = rectangle, color = orange]
+node483 [label= "DELIMITER())", shape = rectangle, color = blue]
+node497 [label= "atom_expr"]
+node488 [label= "NAME(insert)", shape = rectangle, color = red]
+node496 [label= "trailer"]
+node489 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node495 [label= "arglist"]
+node490 [label= "NAME(root)", shape = rectangle, color = red]
+node491 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node492 [label= "STRING_LITERAL(\"aca\")", shape = rectangle, color = orange]
+node493 [label= "DELIMITER())", shape = rectangle, color = blue]
+node512 [label= "atom_expr"]
+node498 [label= "NAME(print)", shape = rectangle, color = red]
+node511 [label= "trailer"]
+node499 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node509 [label= "atom_expr"]
+node500 [label= "NAME(search)", shape = rectangle, color = red]
+node508 [label= "trailer"]
+node501 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node507 [label= "arglist"]
+node502 [label= "NAME(root)", shape = rectangle, color = red]
+node503 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node504 [label= "STRING_LITERAL(\"ab\")", shape = rectangle, color = orange]
+node505 [label= "DELIMITER())", shape = rectangle, color = blue]
+node510 [label= "DELIMITER())", shape = rectangle, color = blue]
+node514 [label= "OPERATOR(=)", shape = rectangle, color = purple]
+node513 [label= "NAME(root)", shape = rectangle, color = red]
+node524 [label= "atom_expr"]
+node515 [label= "NAME(remove)", shape = rectangle, color = red]
+node523 [label= "trailer"]
+node516 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node522 [label= "arglist"]
+node517 [label= "NAME(root)", shape = rectangle, color = red]
+node518 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node519 [label= "STRING_LITERAL(\"abc\")", shape = rectangle, color = orange]
+node520 [label= "DELIMITER())", shape = rectangle, color = blue]
+node539 [label= "atom_expr"]
+node525 [label= "NAME(print)", shape = rectangle, color = red]
+node538 [label= "trailer"]
+node526 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node536 [label= "atom_expr"]
+node527 [label= "NAME(search)", shape = rectangle, color = red]
+node535 [label= "trailer"]
+node528 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node534 [label= "arglist"]
+node529 [label= "NAME(root)", shape = rectangle, color = red]
+node530 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node531 [label= "STRING_LITERAL(\"ab\")", shape = rectangle, color = orange]
+node532 [label= "DELIMITER())", shape = rectangle, color = blue]
+node537 [label= "DELIMITER())", shape = rectangle, color = blue]
+node554 [label= "atom_expr"]
+node540 [label= "NAME(print)", shape = rectangle, color = red]
+node553 [label= "trailer"]
+node541 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node551 [label= "atom_expr"]
+node542 [label= "NAME(search)", shape = rectangle, color = red]
+node550 [label= "trailer"]
+node543 [label= "DELIMITER(()", shape = rectangle, color = blue]
+node549 [label= "arglist"]
+node544 [label= "NAME(root)", shape = rectangle, color = red]
+node545 [label= "DELIMITER(,)", shape = rectangle, color = blue]
+node546 [label= "STRING_LITERAL(\"abc\")", shape = rectangle, color = orange]
+node547 [label= "DELIMITER())", shape = rectangle, color = blue]
+node552 [label= "DELIMITER())", shape = rectangle, color = blue]
+node1 -> node62;
+node62 -> node2;
+node62 -> node3;
+node62 -> node4;
+node62 -> node61;
+node61 -> node5;
+node61 -> node6;
+node61 -> node11;
+node11 -> node7;
+node11 -> node10;
+node10 -> node8;
+node11 -> node9;
+node61 -> node15;
+node15 -> node12;
+node15 -> node13;
+node61 -> node14;
+node61 -> node49;
+node49 -> node37;
+node37 -> node20;
+node20 -> node16;
+node20 -> node19;
+node19 -> node17;
+node19 -> node18;
+node37 -> node21;
+node37 -> node27;
+node27 -> node22;
+node27 -> node26;
+node26 -> node23;
+node26 -> node24;
+node26 -> node25;
+node37 -> node36;
+node36 -> node28;
+node36 -> node34;
+node34 -> node33;
+node33 -> node29;
+node33 -> node32;
+node32 -> node30;
+node33 -> node31;
+node34 -> node35;
+node49 -> node48;
+node48 -> node42;
+node42 -> node38;
+node42 -> node41;
+node41 -> node39;
+node41 -> node40;
+node48 -> node43;
+node48 -> node44;
+node48 -> node47;
+node47 -> node45;
+node47 -> node46;
+node49 -> node60;
+node60 -> node54;
+node54 -> node50;
+node54 -> node53;
+node53 -> node51;
+node53 -> node52;
+node60 -> node55;
+node60 -> node56;
+node60 -> node59;
+node59 -> node57;
+node59 -> node58;
+node1 -> node198;
+node198 -> node63;
+node198 -> node64;
+node198 -> node89;
+node89 -> node65;
+node89 -> node88;
+node88 -> node71;
+node71 -> node66;
+node71 -> node70;
+node70 -> node67;
+node70 -> node68;
+node88 -> node69;
+node88 -> node77;
+node77 -> node72;
+node77 -> node76;
+node76 -> node73;
+node76 -> node74;
+node88 -> node75;
+node88 -> node84;
+node84 -> node79;
+node84 -> node83;
+node83 -> node80;
+node83 -> node81;
+node88 -> node87;
+node87 -> node82;
+node87 -> node85;
+node89 -> node86;
+node198 -> node93;
+node93 -> node90;
+node93 -> node91;
+node198 -> node92;
+node198 -> node123;
+node123 -> node99;
+node99 -> node98;
+node98 -> node94;
+node98 -> node97;
+node97 -> node95;
+node97 -> node96;
+node99 -> node100;
+node123 -> node122;
+node122 -> node101;
+node122 -> node103;
+node103 -> node102;
+node103 -> node109;
+node109 -> node104;
+node109 -> node108;
+node108 -> node105;
+node108 -> node106;
+node108 -> node107;
+node122 -> node110;
+node122 -> node120;
+node120 -> node116;
+node116 -> node115;
+node115 -> node111;
+node115 -> node114;
+node114 -> node112;
+node114 -> node113;
+node116 -> node117;
+node120 -> node119;
+node119 -> node118;
+node123 -> node146;
+node146 -> node121;
+node146 -> node124;
+node146 -> node125;
+node146 -> node145;
+node145 -> node126;
+node145 -> node138;
+node138 -> node137;
+node137 -> node127;
+node137 -> node136;
+node136 -> node128;
+node136 -> node134;
+node134 -> node129;
+node134 -> node133;
+node133 -> node130;
+node133 -> node131;
+node133 -> node132;
+node136 -> node135;
+node138 -> node144;
+node144 -> node139;
+node144 -> node143;
+node143 -> node140;
+node143 -> node141;
+node143 -> node142;
+node123 -> node176;
+node176 -> node147;
+node176 -> node157;
+node157 -> node152;
+node152 -> node148;
+node152 -> node151;
+node151 -> node149;
+node151 -> node150;
+node152 -> node156;
+node156 -> node153;
+node156 -> node154;
+node156 -> node155;
+node157 -> node158;
+node176 -> node159;
+node176 -> node169;
+node169 -> node164;
+node164 -> node160;
+node164 -> node163;
+node163 -> node161;
+node163 -> node162;
+node164 -> node168;
+node168 -> node165;
+node168 -> node166;
+node168 -> node167;
+node169 -> node174;
+node174 -> node170;
+node174 -> node173;
+node173 -> node171;
+node173 -> node172;
+node123 -> node197;
+node197 -> node175;
+node197 -> node196;
+node196 -> node177;
+node196 -> node195;
+node195 -> node182;
+node182 -> node178;
+node182 -> node181;
+node181 -> node179;
+node181 -> node180;
+node182 -> node186;
+node186 -> node183;
+node186 -> node184;
+node186 -> node185;
+node195 -> node187;
+node195 -> node188;
+node195 -> node189;
+node195 -> node192;
+node192 -> node191;
+node192 -> node193;
+node196 -> node194;
+node1 -> node306;
+node306 -> node199;
+node306 -> node200;
+node306 -> node225;
+node225 -> node201;
+node225 -> node224;
+node224 -> node207;
+node207 -> node202;
+node207 -> node206;
+node206 -> node203;
+node206 -> node204;
+node224 -> node205;
+node224 -> node213;
+node213 -> node208;
+node213 -> node212;
+node212 -> node209;
+node212 -> node210;
+node224 -> node211;
+node224 -> node220;
+node220 -> node215;
+node220 -> node219;
+node219 -> node216;
+node219 -> node217;
+node224 -> node223;
+node223 -> node218;
+node223 -> node221;
+node225 -> node222;
+node306 -> node229;
+node229 -> node226;
+node229 -> node227;
+node306 -> node228;
+node306 -> node258;
+node258 -> node239;
+node239 -> node230;
+node239 -> node232;
+node232 -> node231;
+node232 -> node233;
+node239 -> node234;
+node239 -> node237;
+node237 -> node235;
+node237 -> node236;
+node258 -> node257;
+node257 -> node238;
+node257 -> node241;
+node241 -> node240;
+node241 -> node247;
+node247 -> node242;
+node247 -> node246;
+node246 -> node243;
+node246 -> node244;
+node246 -> node245;
+node257 -> node248;
+node257 -> node255;
+node255 -> node249;
+node255 -> node254;
+node254 -> node250;
+node254 -> node253;
+node253 -> node251;
+node253 -> node252;
+node258 -> node281;
+node281 -> node256;
+node281 -> node259;
+node281 -> node260;
+node281 -> node280;
+node280 -> node261;
+node280 -> node273;
+node273 -> node272;
+node272 -> node262;
+node272 -> node271;
+node271 -> node263;
+node271 -> node269;
+node269 -> node264;
+node269 -> node268;
+node268 -> node265;
+node268 -> node266;
+node268 -> node267;
+node271 -> node270;
+node273 -> node279;
+node279 -> node274;
+node279 -> node278;
+node278 -> node275;
+node278 -> node276;
+node278 -> node277;
+node258 -> node305;
+node305 -> node282;
+node305 -> node304;
+node304 -> node283;
+node304 -> node303;
+node303 -> node284;
+node303 -> node302;
+node302 -> node289;
+node289 -> node285;
+node289 -> node288;
+node288 -> node286;
+node288 -> node287;
+node289 -> node293;
+node293 -> node290;
+node293 -> node291;
+node293 -> node292;
+node302 -> node294;
+node302 -> node295;
+node302 -> node296;
+node302 -> node299;
+node299 -> node298;
+node299 -> node300;
+node303 -> node301;
+node1 -> node440;
+node440 -> node307;
+node440 -> node308;
+node440 -> node333;
+node333 -> node309;
+node333 -> node332;
+node332 -> node315;
+node315 -> node310;
+node315 -> node314;
+node314 -> node311;
+node314 -> node312;
+node332 -> node313;
+node332 -> node321;
+node321 -> node316;
+node321 -> node320;
+node320 -> node317;
+node320 -> node318;
+node332 -> node319;
+node332 -> node328;
+node328 -> node323;
+node328 -> node327;
+node327 -> node324;
+node327 -> node325;
+node332 -> node331;
+node331 -> node326;
+node331 -> node329;
+node333 -> node330;
+node440 -> node337;
+node337 -> node334;
+node337 -> node335;
+node440 -> node336;
+node440 -> node359;
+node359 -> node343;
+node343 -> node342;
+node342 -> node338;
+node342 -> node341;
+node341 -> node339;
+node341 -> node340;
+node343 -> node344;
+node359 -> node358;
+node358 -> node345;
+node358 -> node351;
+node351 -> node350;
+node350 -> node346;
+node350 -> node349;
+node349 -> node347;
+node349 -> node348;
+node351 -> node352;
+node358 -> node353;
+node358 -> node356;
+node356 -> node354;
+node356 -> node355;
+node359 -> node381;
+node381 -> node357;
+node381 -> node361;
+node361 -> node360;
+node361 -> node367;
+node367 -> node362;
+node367 -> node366;
+node366 -> node363;
+node366 -> node364;
+node366 -> node365;
+node381 -> node368;
+node381 -> node379;
+node379 -> node374;
+node374 -> node373;
+node373 -> node369;
+node373 -> node372;
+node372 -> node370;
+node372 -> node371;
+node374 -> node375;
+node379 -> node378;
+node378 -> node376;
+node378 -> node377;
+node359 -> node404;
+node404 -> node380;
+node404 -> node382;
+node404 -> node383;
+node404 -> node403;
+node403 -> node384;
+node403 -> node396;
+node396 -> node395;
+node395 -> node385;
+node395 -> node394;
+node394 -> node386;
+node394 -> node392;
+node392 -> node387;
+node392 -> node391;
+node391 -> node388;
+node391 -> node389;
+node391 -> node390;
+node394 -> node393;
+node396 -> node402;
+node402 -> node397;
+node402 -> node401;
+node401 -> node398;
+node401 -> node399;
+node401 -> node400;
+node359 -> node414;
+node414 -> node409;
+node409 -> node405;
+node409 -> node408;
+node408 -> node406;
+node408 -> node407;
+node409 -> node413;
+node413 -> node410;
+node413 -> node411;
+node413 -> node412;
+node414 -> node436;
+node436 -> node415;
+node436 -> node435;
+node435 -> node416;
+node435 -> node434;
+node434 -> node421;
+node421 -> node417;
+node421 -> node420;
+node420 -> node418;
+node420 -> node419;
+node421 -> node425;
+node425 -> node422;
+node425 -> node423;
+node425 -> node424;
+node434 -> node426;
+node434 -> node427;
+node434 -> node428;
+node434 -> node431;
+node431 -> node430;
+node431 -> node432;
+node435 -> node433;
+node359 -> node439;
+node439 -> node437;
+node439 -> node438;
+node1 -> node555;
+node555 -> node441;
+node555 -> node443;
+node443 -> node442;
+node443 -> node444;
+node555 -> node445;
+node555 -> node467;
+node467 -> node456;
+node456 -> node446;
+node456 -> node447;
+node456 -> node448;
+node456 -> node455;
+node455 -> node449;
+node455 -> node454;
+node454 -> node450;
+node454 -> node453;
+node453 -> node451;
+node453 -> node452;
+node467 -> node466;
+node466 -> node457;
+node466 -> node465;
+node465 -> node458;
+node465 -> node464;
+node464 -> node459;
+node464 -> node460;
+node464 -> node461;
+node465 -> node462;
+node467 -> node477;
+node477 -> node468;
+node477 -> node476;
+node476 -> node469;
+node476 -> node475;
+node475 -> node470;
+node475 -> node471;
+node475 -> node472;
+node476 -> node473;
+node467 -> node487;
+node487 -> node478;
+node487 -> node486;
+node486 -> node479;
+node486 -> node485;
+node485 -> node480;
+node485 -> node481;
+node485 -> node482;
+node486 -> node483;
+node467 -> node497;
+node497 -> node488;
+node497 -> node496;
+node496 -> node489;
+node496 -> node495;
+node495 -> node490;
+node495 -> node491;
+node495 -> node492;
+node496 -> node493;
+node467 -> node512;
+node512 -> node498;
+node512 -> node511;
+node511 -> node499;
+node511 -> node509;
+node509 -> node500;
+node509 -> node508;
+node508 -> node501;
+node508 -> node507;
+node507 -> node502;
+node507 -> node503;
+node507 -> node504;
+node508 -> node505;
+node511 -> node510;
+node467 -> node514;
+node514 -> node513;
+node514 -> node524;
+node524 -> node515;
+node524 -> node523;
+node523 -> node516;
+node523 -> node522;
+node522 -> node517;
+node522 -> node518;
+node522 -> node519;
+node523 -> node520;
+node467 -> node539;
+node539 -> node525;
+node539 -> node538;
+node538 -> node526;
+node538 -> node536;
+node536 -> node527;
+node536 -> node535;
+node535 -> node528;
+node535 -> node534;
+node534 -> node529;
+node534 -> node530;
+node534 -> node531;
+node535 -> node532;
+node538 -> node537;
+node467 -> node554;
+node554 -> node540;
+node554 -> node553;
+node553 -> node541;
+node553 -> node551;
+node551 -> node542;
+node551 -> node550;
+node550 -> node543;
+node550 -> node549;
+node549 -> node544;
+node549 -> node545;
+node549 -> node546;
+node550 -> node547;
+node553 -> node552;
+}

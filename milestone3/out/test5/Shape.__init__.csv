@@ -1,0 +1,3 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+name,NAME,Variable,str,154
+self,NAME,Variable,Shape,154

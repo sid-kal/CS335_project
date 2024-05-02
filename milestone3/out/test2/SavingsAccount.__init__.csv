@@ -1,0 +1,5 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+account_number,NAME,Variable,str,35
+balance,NAME,Variable,int,35
+interest_rate,NAME,Variable,int,35
+self,NAME,Variable,SavingsAccount,35

@@ -1,0 +1,19 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+Math,NAME,Class,,168
+Shape,NAME,Class,,153
+Square,NAME,Class,,160
+__name__,NAME,Variable,str,0
+basics,NAME,Function,(),1,None
+calculate_sum,NAME,Function,(int),131,None
+check_number,NAME,Function,(int),91,str
+even_numbers,NAME,Function,(int),113,list[int]
+factorial,NAME,Function,(int),145,int
+len,NAME,Function,(),0,int
+main,NAME,Function,(),176,None
+print,NAME,Function,(int),0,None
+print,NAME,Function,(str),0,None
+print,NAME,Function,(bool),0,None
+print,NAME,Function,(float),0,None
+range,NAME,Function,(int:int),0,range!!
+range,NAME,Function,(int),0,range!
+sum_of_numbers,NAME,Function,(int),103,int

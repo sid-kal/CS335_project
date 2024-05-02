@@ -1,0 +1,6 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(Vehicle:str:int:str),3,None
+brand,NAME,Variable,str,4
+color,NAME,Variable,str,6
+display_info_veh,NAME,Function,(Vehicle),8,None
+year,NAME,Variable,int,5

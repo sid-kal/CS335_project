@@ -1,0 +1,6 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(SavingsAccount:str:int:int),35,None
+account_number,NAME,Variable,str,36
+add_interest,NAME,Function,(SavingsAccount),41,None
+balance,NAME,Variable,int,37
+interest_rate,NAME,Variable,int,38

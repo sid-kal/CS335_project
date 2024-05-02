@@ -1,0 +1,4 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(myClass),14,None
+fn,NAME,Function,(myClass),16,foo
+x,NAME,Variable,int,15

@@ -1,0 +1,4 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(Shape:str),154,None
+get_name,NAME,Function,(Shape),157,str
+name,NAME,Variable,str,155

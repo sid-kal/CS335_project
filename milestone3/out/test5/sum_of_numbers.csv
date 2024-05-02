@@ -1,0 +1,4 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+i,NAME,Variable,int,105
+limit,NAME,Variable,int,103
+total,NAME,Variable,int,104

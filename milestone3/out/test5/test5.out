@@ -1,0 +1,52 @@
+if-elif-else result:
+Positive
+for loop result:
+15
+while loop result:
+0
+2
+4
+6
+8
+10
+0
+0
+0
+0
+Arithmetic operators:
+15
+5
+50
+2
+0
+100000
+
+Relational operators:
+False
+True
+True
+False
+True
+False
+
+Logical operators:
+True
+False
+False
+False
+
+Bitwise operators:
+0
+15
+15
+-11
+-6
+320
+0
+
+Assignment operators:
+12
+24
+Square
+16
+5

@@ -1,0 +1,3 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(bar:str),6,None
+myVar,NAME,Variable,str,7

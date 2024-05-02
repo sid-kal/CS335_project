@@ -1,0 +1,13 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__name__,NAME,Variable,str,0
+bar,NAME,Class,,5
+foo,NAME,Class,,9
+len,NAME,Function,(),0,int
+main,NAME,Function,(),19,None
+myClass,NAME,Class,,13
+print,NAME,Function,(int),0,None
+print,NAME,Function,(str),0,None
+print,NAME,Function,(bool),0,None
+print,NAME,Function,(float),0,None
+range,NAME,Function,(int:int),0,range!!
+range,NAME,Function,(int),0,range!

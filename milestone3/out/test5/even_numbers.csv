@@ -1,0 +1,4 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+evens,NAME,Variable,list[int],114
+limit,NAME,Variable,int,113
+num,NAME,Variable,int,115

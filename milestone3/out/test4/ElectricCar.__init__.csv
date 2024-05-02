@@ -1,0 +1,7 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+battery_capacity,NAME,Variable,int,33
+brand,NAME,Variable,str,33
+color,NAME,Variable,str,33
+model,NAME,Variable,str,33
+self,NAME,Variable,ElectricCar,33
+year,NAME,Variable,int,33

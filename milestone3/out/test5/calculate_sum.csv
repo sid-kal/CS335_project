@@ -1,0 +1,6 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+i,NAME,Variable,int,140
+n,NAME,Variable,int,131
+result_for,NAME,Variable,int,134
+result_if,NAME,Variable,str,133
+result_while,NAME,Variable,list[int],132

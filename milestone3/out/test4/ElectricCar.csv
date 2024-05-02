@@ -1,0 +1,8 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+__init__,NAME,Function,(ElectricCar:str:int:str:str:int),33,None
+battery_capacity,NAME,Variable,int,38
+brand,NAME,Variable,str,34
+color,NAME,Variable,str,36
+display_info_elec,NAME,Function,(ElectricCar),40,None
+model,NAME,Variable,str,37
+year,NAME,Variable,int,35

@@ -1,0 +1,5 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+brand,NAME,Variable,str,3
+color,NAME,Variable,str,3
+self,NAME,Variable,Vehicle,3
+year,NAME,Variable,int,3

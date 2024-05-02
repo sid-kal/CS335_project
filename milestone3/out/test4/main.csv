@@ -1,0 +1,3 @@
+Symbol Name,Token,Category,Type,Line Number,Return Type (for function)
+car1,NAME,Variable,Car,47
+electric_car,NAME,Variable,ElectricCar,50
